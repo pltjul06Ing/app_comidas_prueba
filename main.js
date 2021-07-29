@@ -45,7 +45,7 @@ const inicializaFomulario = ()=>{
         }
         const order ={
             meal_id: mealIdValue,
-            user_id: 'usuario',
+            user_id: User.email,
         }
 
     fetch('https://serverless-julianfabian2012-gmailcom.vercel.app/api/orders',{
